@@ -1,0 +1,68 @@
+{
+    "warehouse": [
+      {
+        "id": 1,
+        "name": "A230",
+        "title": "A",
+        "capacity" : 230,
+        "stock": 95,
+        "locationLangitude": 47.497913,
+        "locationLongitude": 19.040236
+      },
+      {
+        "id": 2,
+        "name": "B150",
+        "title": "B",
+        "capacity" : 150,
+        "stock": 145,
+        "locationLangitude": 47.447913,
+        "locationLongitude": 19.060236
+      }
+    ],
+    "brand": [
+      {
+        "id": 1,
+        "brandName": "FashionFirst",
+        "qualityCategory": 1
+      },
+      {
+        "id": 2,
+        "brandName": "BeautyFirst",
+        "qualityCategory": 2
+      },
+      {
+        "id": 3,
+        "brandName": "GameFirst",
+        "qualityCategory": 1
+      }
+    ],
+    "product": [
+      {
+        "id": 1,
+        "itemNumber": "312323",
+        "name": "woman dress",
+        "price": 10.99,
+        "brandId": 1,
+        "weight": 1.12,
+        "color": "red"
+      },
+      {
+        "id": 2,
+        "itemNumber": "435435",
+        "name": "cold cream",
+        "price": 5.99,
+        "brandId": 2,
+        "weight": 0.12,
+        "type": 2
+      },
+       {
+        "id": 3,
+        "itemNumber": "435435",
+        "name": "random board game",
+        "price": 18.99,
+        "brandId": 3,
+        "weight": 0.59,
+        "ageGroup": "9-99"
+      }
+    ]
+  }
