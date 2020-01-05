@@ -1,9 +1,10 @@
 <?php
 
-require_once __DIR__ . '/../routes/Route.php';
-require_once __DIR__ . '/../controllers/HomeController.php';
-require_once __DIR__ . '/../controllers/WarehouseController.php';
-require_once __DIR__ . '/../controllers/StockController.php';
+namespace App\Routes;
+
+use App\Controllers\HomeController;
+use App\Controllers\WarehouseController;
+use App\Controllers\StockController;
 
 class Routes extends Route
 {
@@ -36,9 +37,6 @@ class Routes extends Route
             case 'stockDelete':
                 if(self::$method == 'POST')
                     StockController::delete(self::$data['id']);
-                break;
-            case 'test_addProductsShowStock':
-                    TestController::addProductsShowStock();
                 break;
         }
     }

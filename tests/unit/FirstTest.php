@@ -3,10 +3,9 @@
 
 use PHPUnit\Framework\TestCase;
 
-require_once __DIR__ . '/../../model/Stock.php';
-require_once __DIR__ . '/../../model/Warehouse.php';
-require_once __DIR__ . '/../../controllers/StockController.php';
-require_once __DIR__ . '/../../controllers/WarehouseController.php';
+use App\Models\Stock;
+use App\Models\Warehouse;
+use App\Controllers\StockController;
 
 class FirstTest extends TestCase{
 

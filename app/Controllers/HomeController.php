@@ -1,10 +1,10 @@
 <?php
 
-require_once 'Controller.php';
+namespace App\Controllers;
 
-require_once __DIR__ . '/../model/Warehouse.php';
-require_once __DIR__ . '/../model/Stock.php';
-require_once __DIR__ . '/../model/Product.php';
+use App\Models\Warehouse;
+use App\Models\Stock;
+use App\Models\Product;
 
 class HomeController extends Controller{
 

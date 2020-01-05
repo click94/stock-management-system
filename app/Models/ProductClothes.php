@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Product.php';
+namespace App\Models;
 
 class ProductClothes extends Product {
     

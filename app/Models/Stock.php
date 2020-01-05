@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Model.php';
+namespace App\Models;
 
 class Stock extends Model {
 

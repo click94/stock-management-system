@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../routes/Routes.php';
+use App\Routes\Routes;
 
 class Decision
 {

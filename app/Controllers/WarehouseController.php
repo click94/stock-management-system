@@ -1,7 +1,9 @@
 <?php
 
-require_once 'Controller.php';
-require_once __DIR__ . '/../helper/ValidateParams.php';
+namespace App\Controllers;
+
+use App\Models\Warehouse;
+use App\Helper\ValidateParams;
 
 class WarehouseController extends Controller{
 

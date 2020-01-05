@@ -1,8 +1,10 @@
 <?php
 
-require_once 'Controller.php';
-require_once __DIR__ . '/../helper/ValidateParams.php';
-require_once __DIR__ . '/../model/Warehouse.php';
+namespace App\Controllers;
+
+use App\Models\Stock;
+use App\Models\Warehouse;
+use App\Helper\ValidateParams;
 
 class StockController extends Controller{
 

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Helper;
+
 class ValidateParams{
 
     private static function security($data) {
